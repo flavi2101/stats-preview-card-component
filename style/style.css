@@ -1,4 +1,4 @@
-@import './desktop.css';
+@import "./desktop.css";
 @import "./mobile.css";
 
 * {
@@ -16,9 +16,7 @@
   margin-inline: 0;
 }
 
-
-
-@media screen and (min-width: 376px) and (max-width: 699px) {
+@media screen and (min-width: 377px) and (max-width: 1100px) {
   body {
     background-color: var(--Very-dark-blue-main-background);
   }
@@ -53,8 +51,8 @@
     color: var(--Soft-violet-accent);
   }
 
-  p,
-  p > * {
+  header > p,
+  header > p > * {
     font-size: 1.4rem;
     line-height: 2.2rem;
     color: var(--Slightly-transparent-white-paragraph);
@@ -83,3 +81,8 @@
   }
 }
 
+.validator {
+  position: fixed;
+  inset-block-start: 4rem;
+  inset-inline-start: 4rem;
+}

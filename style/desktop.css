@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1001px) {
   body {
     background-color: var(--Very-dark-blue-main-background);
   }
@@ -6,7 +6,7 @@
   main {
     background-color: var(--main-background);
     display: flex;
-    inline-size: 80%;
+    inline-size: 70%;
     margin-inline: 10%;
     margin-block: 10%;
   }
@@ -31,13 +31,14 @@
     inset-block: 0;
   }
   article {
-    flex-shrink: 1.5;
+    flex-shrink: 2;
+    padding-inline: 6rem;
   }
 
   h1,
   h1 > * {
     color: var(--Slightly-transparent-white-headings);
-    font-size: 2.7rem;
+    font-size: 4rem;
     padding-bottom: 2.9rem;
   }
 
@@ -47,8 +48,8 @@
 
   p,
   p > * {
-    font-size: 1.4rem;
-    line-height: 2.2rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
     color: var(--Slightly-transparent-white-paragraph);
     padding-block-end: 5rem;
   }
@@ -64,12 +65,13 @@
     line-height: 2.5rem;
     inline-size: 8rem;
     text-align: center;
-    font-size: 1.8rem;
-    padding-bottom: 2.9rem;
+    font-size: 2.2rem;
+    padding-bottom: 4rem;
+    font-weight: 400;
   }
 
   .results {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     color: var(--Slightly-transparent-white-paragraph);
   }

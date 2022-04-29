@@ -1,4 +1,4 @@
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   body {
     background-color: var(--Very-dark-blue-main-background);
     margin: 0 0;
@@ -14,6 +14,7 @@
   }
   article {
     text-align: center;
+
   }
   header {
     padding-block-start: 4em;
@@ -22,15 +23,15 @@
   .banner {
     position: relative;
     block-size: 25rem;
-    border-top-right-radius: 2rem;
-    border-top-left-radius: 2rem;
+
   }
 
-  img {
+  .banner > img {
     block-size: 100%;
     inline-size: 100%;
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
+
   }
 
   .overlay-background {
@@ -54,8 +55,8 @@
     color: var(--Soft-violet-accent);
   }
 
-  p,
-  p > * {
+  header > p,
+  header > p > * {
     font-size: 1.4rem;
     line-height: 2.2rem;
     color: var(--Slightly-transparent-white-paragraph);
@@ -74,4 +75,6 @@
     text-transform: uppercase;
     color: var(--Slightly-transparent-white-paragraph);
   }
+
+ 
 }
