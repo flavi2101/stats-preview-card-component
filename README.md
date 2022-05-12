@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-Fouer card feature  é um projeto baseado em um desafio do frontMentor ( https://www.frontendmentor.io/challenges ). É um site onde um template é fornecido com algumas instruções e precisamos reproduzí-lo usando as ferramentas e os conhecimentos prévios.
+Fouer card feature  é um projeto baseado em um desafio do frontMentor ( https://www.frontendmentor.io/challenges ). É um site onde um template é fornecido com algumas instruções e precisamos reproduzí-lo usando as ferramentas e os conhecimentos prévios. Você consegue acessar o projeto pronto no ![link]https://flavi2101.github.io/stats-preview-card-component/
 
 ## Layout mobile
 ![Mobile 1](https://github.com/flavi2101/stats-preview-card-component/blob/main/assets/design/mobile-design.jpg)
